@@ -1,0 +1,73 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"bridge."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.18"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			60
+		],
+		"uuid": "fbd24e5e-0723-43da-9d32-b35846ceab0a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "630f7877-e2f4-4ad0-ba84-a0a245566d9f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"uuid": "fc843df5-68e3-41f5-9f8b-6fb2b4f26b7c",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"language": "javascript",
+			"entry": "scripts/index.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ab68770e-fced-47d9-909a-36489c1857af",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			// Enables the use of @minecraft/server module
+			// note that version changes every monthly releases.
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		}
+	]
+}

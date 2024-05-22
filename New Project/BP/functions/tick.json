@@ -1,0 +1,6 @@
+{
+	"values": [
+		"on_player_join",
+		"on_player_death"
+	]
+}
